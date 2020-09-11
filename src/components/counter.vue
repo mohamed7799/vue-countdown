@@ -105,4 +105,10 @@ export default {
 .item_name {
   font-size: 1rem;
 }
+
+@media (min-width: 100px) and (max-width: 900px) {
+  .counter_container {
+    width: 100%;
+  }
+}
 </style>
